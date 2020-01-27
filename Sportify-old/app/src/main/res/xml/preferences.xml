@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:dialogTitle="@string/kategorija_odabir_jezika"
+        android:entries="@array/odabir_jezika_entries"
+        android:entryValues="@array/odabir_jezika_values"
+        android:key="key_odabir_jezika"
+        android:summary="@string/odabir_jezika_summary"
+        android:title="@string/odabir_jezika_title"/>
+
+    <PreferenceCategory android:title="@string/kategorija_zvukovi_i_obavijesti">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="key_ton_obavijesti"
+            android:title="@string/ton_obavijesti_title" />
+
+        <ListPreference
+            android:dialogTitle="@string/kategorija_zvona"
+            android:entries="@array/odabir_zvona_entries"
+            android:entryValues="@array/odabir_zvona_values"
+            android:key="key_odabir_zvona"
+            android:summary="@string/odabir_zvona_summary"
+            android:title="@string/odabir_zvona_title" />
+
+        <CheckBoxPreference
+            android:key="key_vribracija"
+            android:title="@string/odabir_vibracije_title" />
+
+
+       <SwitchPreferenceCompat
+           android:defaultValue="false"
+           android:key="key_pop_up"
+           android:title="@string/pop_up_obavijesti_title"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kategorija_privatnost">
+
+    <PreferenceScreen
+        android:key="key_privatnost"
+        android:summary="@string/privatnost_summary"
+        android:title="@string/privatnost_title"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="key_privatnost_brmob"
+            android:title="@string/privatnost_brmob_title"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="key_privatnost_mail"
+            android:title="@string/privatnost_mail_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/kategorija_o_aplikaciji">
+
+        <PreferenceScreen
+            android:key="key_o_aplikaciji"
+            android:summary="@string/o_aplikaciji_summary"
+            android:title="@string/o_aplikaciji_title"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

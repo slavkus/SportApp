@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/ivProfileUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txtProfileName"
+            style="@style/ProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/ivSkillCircle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp"
+        android:src="@mipmap/skillcircle"
+        android:layout_marginTop="-35dp"
+        android:layout_marginBottom="-35dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtCity"
+            style="@style/ProfileTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:padding="5dp"
+            android:text="Varaždin" />
+
+        <TextView
+            android:id="@+id/txtPhoneNumber"
+            style="@style/ProfileTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:padding="5dp"
+            android:text="+38591/528-8668"
+            android:layout_below="@+id/txtCity"
+            android:layout_alignEnd="@+id/txtMail" />
+
+        <TextView
+            android:id="@+id/txtMail"
+            style="@style/ProfileTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPhoneNumber"
+            android:layout_marginLeft="40dp"
+            android:padding="5dp"
+            android:text="luka.lukic@gmail.com" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imagePlace"
+            android:src = "@mipmap/place"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/imageMessage" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imagePhone"
+            android:src = "@mipmap/phone"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/txtPhoneNumber"
+            android:layout_toStartOf="@+id/imageMessage" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageMessage"
+            android:src = "@mipmap/message"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/imagePhone"
+            android:layout_alignStart="@+id/txtCity" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageMail"
+            android:src = "@mipmap/email"
+            android:layout_marginLeft="10dp"
+            android:layout_alignBottom="@+id/txtMail"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<resources>
+
+    <string-array name="titles">
+        <item>Prijateljska</item>
+        <item>Prvenstvo</item>
+        <item>Dobrotvorna</item>
+        <item>Kup</item>
+        <item>Polufinale</item>
+        <item>Cetvrtfinale</item>
+    </string-array>
+
+    <string-array name="sports">
+        <item>Basketball</item>
+        <item>Football</item>
+        <item>Hockey</item>
+        <item>Soccer</item>
+        <item>Tennis</item>
+        <item>Volleyball</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="days">
+        <item>11</item>
+        <item>23</item>
+        <item>7</item>
+        <item>1</item>
+        <item>5</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>FEB</item>
+        <item>MAY</item>
+        <item>JAN</item>
+        <item>DEC</item>
+        <item>OCT</item>
+        <item>APR</item>
+    </string-array>
+    <string-array name="notifications">
+        <item>Ana Anić, 20,RI - Vaša prijava za odbojku je odobrena.Vidimo se :) </item>
+        <item>Pero Perić, 25,ZG - Vaša prijava za nogometni turnir je prihvaćena! Vidimo se!</item>
+        <item>Luka Lukić, 22,KA - Vaša prijava za turnir u tenisu je odbijena. Nema više mjesta. </item>
+    </string-array>
+
+    <string name="kategorija_odabir_jezika">ODABIR JEZIKA</string>
+    <string name="odabir_jezika_title">Odeberi jezik</string>
+    <string name="odabir_jezika_summary">Omogućuje odabir jezika sučelja aplikacije</string>
+
+    <string-array name="odabir_jezika_entries">
+        <item>Hrvatski</item>
+        <item>Engleski</item>
+        <item>Njemački</item>
+    </string-array>
+    <string-array name="odabir_jezika_values">
+        <item>hr</item>
+        <item>en</item>
+        <item>de</item>
+    </string-array>
+
+    <string-array name="tabs">
+        <item>Sport</item>
+        <item>Type</item>
+        <item>Time</item>
+        <item>Location</item>
+    </string-array>
+
+    <string name="kategorija_zvukovi_i_obavijesti">ZVUKOVI I OBAVIJESTI</string>
+    <string name="odabir_zvukova_i_obavijesti_title">Zvukovi i obavijesti</string>
+    <string name="odabir_zvukova_i_obavijesti_summary">Omogućuje odabir zvuka i postavke obavijesti</string>
+
+    <string name="ton_obavijesti_title">Ton obavijesti</string>
+    <bool name="ton_obavijesti_title">true</bool>
+
+    <string name="kategorija_privatnost">PRIVATNOST</string>
+    <string name="privatnost_title">Privatnost</string>
+    <string name="privatnost_summary">Omogućuje postavke za privatnost</string>
+
+    <string name="kategorija_o_aplikaciji">INFO</string>
+    <string name="o_aplikaciji_title">O aplikaciji</string>
+    <string name="o_aplikaciji_summary">Omogućuje pregled informacija o aplikaciji</string>
+
+
+    <string name="pop_up_obavijesti_title">Pop up obavijesti</string>
+    <string name="privatnost_brmob_title">Prikaz broja telefona</string>
+    <string name="privatnost_mail_title">Prikaz e-maila</string>
+
+    <string name="odabir_vibracije_title">Odeberi vibaracije</string>
+
+    <string name="kategorija_zvona">ODABIR MELODIJE OBAVIJESTI</string>
+    <string name="odabir_zvona_title">Odeberi melodije obavijesti</string>
+    <string name="odabir_zvona_summary">Omogućuje odabir tona obavijesti aplikacije</string>
+
+    <string-array name="odabir_zvona_entries">
+        <item>Tralala</item>
+        <item>Balalala</item>
+        <item>Njnjnj</item>
+    </string-array>
+    <string-array name="odabir_zvona_values">
+        <item>Tra</item>
+        <item>Bala</item>
+        <item>Nj</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="facebook_app_id">1746966465585185</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_event_creation">EventCreationActivity</string>
+    <string name="datum_kalendar_fragment">Datum kalendar fragment</string>
+
+    <string name="button_nogomet">Soccer</string>
+    <string name="button_kosarka">Basketball</string>
+    <string name="button_rukomet">Handball</string>
+    <string name="button_odbojka">Volleyball</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="choose_sport">Sport</string>
+    <string name="choose_event_type">Type</string>
+    <string name="choose_location">Location</string>
+    <string name="dialog_time">Time</string>
+    <string name="dialog_date">Date</string>
+    <string name="dialog_title">Choose time and date</string>
+    <string name="addDate">Add date</string>
+    <string name="addTime">Add time</string>
+    <string name="numberOfRepeats">Enter number of repeats</string>
+    <string name="enterPrice">Enter price</string>
+    <string name="enterPriceOk">Ok</string>
+    <string name="enterPriceCancel">Cancel</string>
+    <string name="title_activity_google_maps">GoogleMaps</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

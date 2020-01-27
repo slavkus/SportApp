@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/timeline_list"
+            android:name="hr.foi.mtlab.sportify.Timeline"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layoutManager="LinearLayoutManager"
+            tools:listitem="@layout/timeline_list_item" >
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|right"
+        android:weightSum="1">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabTime"
+            android:layout_width="85dp"
+            android:layout_height="67dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="65dp"
+            android:layout_weight="0.07"
+            android:clickable="true"
+            android:scaleType="center"
+            app:layout_anchorGravity="bottom|right|end"
+            app:srcCompat="@drawable/pink_plus_button" />
+    </LinearLayout>
+
+</FrameLayout>

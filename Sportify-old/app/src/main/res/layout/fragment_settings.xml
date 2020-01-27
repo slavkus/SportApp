@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView"
+            android:src = "@mipmap/language"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView2"
+            android:src = "@mipmap/settings_notification"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignStart="@+id/imageView" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView3"
+            android:src = "@mipmap/private_icon"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView4"
+            android:src = "@mipmap/info"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Jezik"
+            android:id="@+id/textView"
+            android:layout_marginStart="26dp"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Zvukovi i obavijesti"
+            android:id="@+id/textView4"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_alignStart="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="O aplikaciji"
+            android:id="@+id/textView6"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_alignStart="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Privatnost"
+            android:id="@+id/textView5"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignStart="@+id/textView6" />
+
+    </RelativeLayout>
